@@ -1,0 +1,63 @@
+.face {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #ab7d4b;
+}
+
+.face > .left-eye {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    transform: translate(70px, 80px);
+}
+
+.face > .right-eye {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    transform: translate(170px, 30px);
+}
+
+.face > .left-moustache {
+    height: 50px;
+    width: 100px;
+    border-radius: 100% 50% 80% 0%;
+    background-color: #f7e077;
+    transform: translate(45px, 55px);
+}
+.face > .right-moustache {
+    height: 50px;
+    width: 100px;
+    border-radius: 50% 100% 0% 80%;
+    background-color: #f7e077;
+    transform: translate(145px, 5px);
+}
+
+.face > .pacifier {
+    height: 90px;
+    width: 150px;
+    border-radius: 47%;
+    background-color: #edaddd;
+    transform: translate(72px, -35px);
+}
+
+.face > .pacifier > div {
+    height: 50px;
+    width: 80px;
+    border-radius: 47%;
+    border: solid #a16a93 4px;
+    background-color:#a16a93;
+    transform: translate(30px, 16px);
+}
+
+.hair1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 45%;
+    border-right: solid #f7e077 7px;
+    border-left: none; 
+    transform: translate(100px, 16px);
+}
